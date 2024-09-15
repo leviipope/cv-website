@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(245, 236, 222);
+    background-color: rgb(34, 34, 34);
     font-family: 'Open Sans';
+    color: white;
 }
 #flag{
     height: 18px;
@@ -8,6 +9,12 @@ body{
 }
 .contact-item {
     display: inline-block;
+}
+#email{
+    display: inline-block;   
+}
+#email:hover{
+    margin-right: -6.5px;
 }
 .contact-item i {
     margin-left: 20px;
@@ -29,6 +36,10 @@ body{
         display: inline-block;
     }
 }
+header{
+    border: 2px solid transparent;
+    
+}
 #language{
     position: absolute;
     top: 10px;
@@ -46,22 +57,23 @@ body{
 }
 #name{
     font-size: 40px;
+
 }
 hr{
     height: 2px;
     border: none;
-    background-color: black;
+    background-color: rgb(151, 151, 151);
 }
 #contact{
     margin-bottom: 40px;
     font-size: large;
 }
 a:link{ 
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 a:visited{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 a:hover{
     font-weight: 600;
