@@ -2,6 +2,13 @@ body{
     background-color: rgb(34, 34, 34);
     font-family: 'Open Sans';
     color: white;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+@media(max-width:768px){
+    body{
+        padding: 0;
+    }
 }
 #flag{
     height: 18px;
@@ -57,7 +64,7 @@ header{
 }
 #name{
     font-size: 40px;
-
+    margin-top: 0;
 }
 hr{
     height: 2px;
