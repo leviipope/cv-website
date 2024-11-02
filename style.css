@@ -2,17 +2,12 @@ body{
     background-color: rgb(34, 34, 34);
     font-family: 'Open Sans';
     color: white;
-    padding-left: 400px;
-    padding-right: 400px;
+    margin-left: 25rem;
+    margin-right: 25rem;
 }
 *::selection{
     color: rgb(34, 34, 34);
     background-color: white;
-}
-@media(max-width:768px){
-    body{
-        padding: 0;
-    }
 }
 #flag{
     height: 18px;
@@ -122,11 +117,11 @@ a:hover{
     width: 380px;
     height: auto;
     float: left;
+    margin-right: 3rem;
 }
 #box2 {
-    width: 420px;
+    width: 275px;
     height: auto;
-    margin-left: 20px;
     float: left;
 }
 .clearfix {
@@ -149,4 +144,18 @@ h3{
 h4{
     margin-bottom: -15px;
     font-weight: 620;
+}
+@media (max-width: 1300px) {
+    body{
+        margin: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+@media (max-width: 800px) {
+    body{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin: 1rem;
+    }
 }
